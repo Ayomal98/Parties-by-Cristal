@@ -1,0 +1,28 @@
+ <style>
+body{
+  
+  font-family:'Sans-serif';
+}
+h1{
+	text-align:center;
+	font-size:50px;
+	color:blue;
+	margin:30px;
+}
+.gallery{
+	margin:50px;
+	position:center;
+}
+.gallery img{
+	padding:20px;
+	filter:grayscale(100%);
+	transition:1s;
+	transition-property:all;
+}
+.gallery img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.5);
+	z-index:1;
+	transform:rotate(360deg) scale(1.5);
+}
+</style> 

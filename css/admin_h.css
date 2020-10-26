@@ -1,0 +1,89 @@
+.right{
+				height:80%;
+				width:30%;
+				margin-right:10;
+				background-color:white;
+				opacity:0.6;
+				box-shadow: 0px 0px 10px 2px grey;
+				margin-bottom:20;
+				margin-top:5%;
+				text-align:center;
+				padding:10;
+				float:right;	
+				
+            }
+.homebox{
+				height:550px;
+				width:50%;
+				margin-left:8%;
+				margin-top:50;
+				padding: 0;
+				border-radius: 6px;
+				background-color: transparent;
+				box-shadow: 0px 0px 10px 2px grey;
+				float:left;
+				background-size:cover;
+				opacity:0.95;
+				overflow:hidden;
+				z-index:-1;
+                border-radius: 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+   
+
+}
+.head{
+    width: 65%;
+    height: 10%;
+    text-align: left;
+    border: 3px solid;
+    //border-color: rgba(185, 165, 196, 0.678);
+    background-color: rgba(0, 0, 0, 0.61);
+    
+
+}
+input{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Verdana';
+}
+.add{
+    width:20%%;
+    z-index: 1;
+    height: 100%;
+}
+.add input{
+    color:black;
+    height: 50px;
+    width:100px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.homebox img{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.textbox{
+    color: white;
+    z-index: 1;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom:1px solid rgba(5, 37, 36, 0.329);
+    border-top: 1px solid rgba(5, 37, 36, 0.329);
+}
+.textbox input{
+    color:black;
+    height: 50px;
+    width:100%;
+    margin-top: 20px;
+ 
+}
+
+

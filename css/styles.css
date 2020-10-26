@@ -1,0 +1,96 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+
+body{
+	background:url("birthday.jpg");
+	background-size:cover;
+	height:100vh;
+	font:Arial;
+}
+
+.wrapper{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+}
+
+.contact-form{
+	max-width:550px;
+margin: 0 auto;
+background: rgba(0,0,0,0,8);
+padding:30px;
+border-radius: 5px;
+display:flex;
+box-shadow:0 0 10px rgba(0 0 0 0 13);
+}
+
+.input-fields{
+	display:flex;
+	flex-direction:column;
+	margin-right:4%;
+}
+
+.input-fields,
+.msg{
+	width:48%;
+}
+
+.input-fields.input,
+.msg textarea{
+	margin: 10px 0;
+	background-color: #FFB6EE;
+	border: none;
+	border-bottom: 2px solid #00b359;
+	padding: none;
+}
+
+.msg textarea{
+	height:212px;
+}
+
+::-webkit-input-placeholder{
+	color: #00b359;
+}
+
+::-moz-input-placeholder{
+	color: #00b359;
+}
+
+::-ms-input-placeholder{
+	color: #00b359;
+}
+
+.btn{
+	background: #39b7dd;
+	text-align:center;
+	padding:15 px;
+	
+	border-radius: none;
+	color: #660033;
+	cursor: pointer;
+	text-transform: uppercase;
+	
+}
+
+@media screen and (max-width: 600px)
+{
+	.contact-form{
+		flex-direction: column;
+	}
+	.msg textarea{
+		height: 100px;
+	}
+	.input-fields,
+	.msg{
+		width:100%;
+	}
+}	
+
+
+	

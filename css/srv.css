@@ -1,0 +1,60 @@
+
+.box{
+				height:450px;
+				width:45%;
+				margin-left:20;
+				margin-top:80;
+				padding: 10;
+				background-color:transparent;
+				box-shadow: 0px 0px 10px 2px grey;
+				background-size:cover;
+				opacity:1;
+				overflow:hidden;
+				float: left;
+				z-index:-1;
+				
+			}
+
+
+.box2{
+				height:450px;
+				width:45%;
+				margin-right:20;
+				margin-top:80;
+				padding: 10;
+				background-color:transparent;
+				box-shadow: 0px 0px 10px 2px grey;
+				background-size:cover;
+				opacity:1;
+				overflow:hidden;
+				float: right;
+				z-index:-1;
+				
+			}
+.box img{
+	z-index: 1;
+	opacity: 1;
+	margin-right: 50px;
+	margin-top: 20px;
+	
+}
+.box p{
+	text-align: center;
+	color: wheat;
+	font-size: 20px;
+}
+#book:hover{
+	opacity:1;
+	transform: scale(1.1);
+}
+.box2 img{
+	z-index: 1;
+	opacity: 1;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.box2 p{
+	text-align: center;
+	color: wheat;
+	font-size: 20px;
+}
